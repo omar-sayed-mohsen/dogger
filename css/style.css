@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    margin: auto;
+}
+.justify-center{
+    justify-content: center;
+}
+.contact-us p {
+    color: #a8b1b8 !important;
+}
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 60%;
+    text-transform: capitalize;
+}
+.space-between {
+    justify-content: space-between;
+}
+a.active,
+a:hover {
+    opacity: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-around {
+    justify-content: space-around;
+}
+.contaner{
+    width: 90%;
+    margin: auto;
+}
+.align-center {
+    align-items: center;
+}
+.row .text,
+.row .img-div {
+    width: 49%;
+}
+.text h2,
+.text p {
+    margin: 20px 0;
+}
+p :not(.trainers p){
+    color: grey;
+}
+.trainers p{
+    color: white;
+}
+section{
+    padding: 100px 0;
+}
+.title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.title h3 {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+/* ----------------------------------------- */
+.btn-primary {
+    background-color: #a2c0be;
+    color: white;
+    border-color: #a2c0be;
+}
+.frequently .img-div img{
+    width: 85% !important;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    text-transform: capitalize;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: black;
+    border-color: black;
+}
+nav {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 2px 0 rgba(128, 128, 128, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+.hover-shadow:hover{
+    box-shadow: 10px 10px 0 1px rgb(73, 145, 170);
+}
+.img-div img{
+    width: 100%;
+    transition: box-shadow 0.5s;
+}
+.should{
+    font-weight: normal;
+    font-size: 24px;
+}
+nav .logo {
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: black;
+    opacity: 100%;
+    text-decoration: none;
+}
+nav .logo span {
+    color: #a2c0be;
+}
+nav i {
+    font-size: 18px;
+}
+nav .menu {
+    padding: 0;
+    list-style: none;
+}
+.box-shadow{
+    transition: box-shadow 0.5s;
+}
+/* ------------------------------------- */
+main {
+    padding-top: 70px;
+    background-color: #f8f9fa;
+}
+.trainers{
+    background-color: rgb(162, 192, 190);
+}
+.paw1, .paw4{
+    transform: rotate(-30deg);
+}
+.paw3, .paw6{
+    transform: rotate(30deg);
+}
+.paw4, .paw6{
+    color: rgba(255, 255, 255,0.5);
+}
+.paw2{
+color: rgb(121, 159, 157);
+font-size: 20px;
+}
+.paw5{
+    font-size: 20px;
+    color: white;
+}
+.card{
+    width: 29%;
+}
+.paw-icons{
+    color: #a2c0be;
+    opacity: 50%;
+    margin: 0 5px;
+}
+main .row,
+main .container {
+    height: 100%;
+}
+.trainers .card i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: black;
+}
+.trainers .card i:hover{
+    background-color: black;
+    color: white;
+}
+.photos{
+    transition: 1s;
+}
+.photos:hover{
+    transform:scale(1.2);
+}
+.blog .text .img-div img{
+    width: 50%;
+}
+.active:hover{
+    color: black;
+}
+.color{
+    color: gray;
+}
+.service .docter{
+    width: 30%;
+    margin-bottom: 40px;
+}
+.service .docter img{
+    width: 100px;
+}
+.space{
+    margin: 10px 0;
+}
+.title-form{
+    color: #405a58;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.input{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 10px 0 10px 0;
+    height: 35px;
+    padding:10px;
+}
+.input-primary{
+    width: 80%;
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid #6c757d;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    height: 35px;
+    display: inline-block;
+}
+.name{
+    width: 95%;
+}
+.text-form{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 10px 0 10px 0;
+    height: 200px;
+    padding:10px;
+    resize: vertical;
+    width: 96%;
+}
+.btn-secndary{
+    background-color: #343a40;
+    color: white;
+    border-color: #343a40;  
+}
+.btn-secndary:hover{
+    background-color: #23272b;
+    border-color: #23272b;
+}
+.color-form{
+    color: #405a58;
+}
+.w-100{
+    width: 98%;
+    display: block;
+}
+.first{
+    color: white;
+    font-size: 18px;
+}
+footer{
+    background-color: #333333;
+    padding: 100px 0;
+}
+.hover-white:hover{
+    color: white;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-whatsapp,
+.fa-instagram{
+    font-size: 28px;
+    margin: 10px 7px 10px 0;
+}
+.btn-white{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    text-transform: capitalize;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    color: gray;
+    padding: 10px 15px;
+}
+/* ----------------------------------------------- */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 65%;
+    }
+    .contact-form{
+        background-color: #a2c0be;
+        width: 50%;
+        padding: 50px;
+    }
+    .contact-us{
+        color: white !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c757d;
+        width: 50%;
+        padding: 40px;
+    }
+    .w-25{
+        width: 23%;
+    }
+    .photos{
+        width: 25%;
+    }
+    main img {
+        width: 445px;
+        align-self: flex-end;
+    }
+    .d-flex {
+        display: flex;
+    }
+    nav i {
+        display: none !important;
+    }
+    nav .menu li {
+        margin: 0 20px;
+    }
+    main {
+        height: 100vh;
+    }
+    main h2 {
+        font-size: 64px;
+    }
+    .text{
+        width: 49%;
+    }
+    .order-1{
+    order: -1 !important;
+    }       
+    .about-us{
+        padding-top:405px;
+    }
+    .text-end{
+        text-align: right;
+    }
+    .text-start{
+        text-align: left;
+    }
+    .text-mediem{
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 80%;
+    }
+    .photos{
+        width: 90%;
+    }
+    .right{
+        text-align: right;
+    }
+    .contact-us{
+        color: white !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c757d;
+        padding: 40px;
+        height: 800px;
+    }
+    .d-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-form{
+        background-color: #a2c0be;
+        padding: 50px;
+    }
+    .text-end{
+        text-align: center;
+    }
+    .text-start{
+        text-align: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .r-c{
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 0;
+        display: none !important;
+    }
+    nav .menu li {
+        margin: 10px 0;
+    }
+    main h2 {
+        font-size: 25px;
+        margin: 40px 0 10px 0;
+    }
+    main img {
+        width: 370px;
+        align-self: center;
+        margin-top: 40px;
+    }
+    .d-flex,
+    .row:not(nav .row) {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    .row .text,
+    .row .img-div,
+    .trainers .card,
+    .service .docter{
+        width: 100%;
+        gap: 20px 0;
+    }
+    .trainers .card{
+        margin:20px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+    .right{
+        text-align: right;
+    }
+    .contact-us{
+        color: white !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6c757d;
+        padding: 40px;
+        height: 800px;
+    }
+    .contact-form{
+        background-color: #a2c0be;
+        padding: 50px;
+    }
+    .trainers .card{
+        margin: 20px 0;
+    }.text-end{
+        text-align: center;
+    }
+    .photos{
+        width: 95%;
+    }
+    .text-start{
+        text-align: center;
+    }
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .row .text,
+    .row .img-div,
+    .trainers .card,
+    .service .docter{
+        width: 100%;
+        gap: 20px 0;
+    }
+    main img {
+        width: 100%;
+        align-self: center;
+    }
+    .r-c{
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 0;
+        display: none !important;
+    }
+    nav .menu li {
+        margin: 10px 0;
+    }
+    main h2 {
+        font-size: 20px;
+        margin: 40px 0 10px 0;
+    }
+    main img {
+        width: 250px;
+        margin-top: 40px;
+    }
+    .d-flex,
+    .row:not(nav .row) {
+        flex-direction: column;
+        gap: 20px 0;
+    }
+}
